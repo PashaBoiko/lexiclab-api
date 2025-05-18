@@ -16,7 +16,7 @@ mongoose.once('open', () => {
 });
 
 app.get('/', (req, res) => {
-  res.send("Hello word!!");
+  res.send("LexicLab API is running");
 });
 
 app.use((req, res, next) => {

@@ -9,13 +9,13 @@ importers:
   .:
     dependencies:
       '@aws-sdk/client-s3':
-        specifier: ^3.598.0
+        specifier: ^3.812.0
         version: 3.812.0
       '@aws-sdk/client-ses':
-        specifier: ^3.515.0
+        specifier: ^3.812.0
         version: 3.812.0
       '@aws-sdk/lib-storage':
-        specifier: ^3.616.0
+        specifier: ^3.812.0
         version: 3.812.0(@aws-sdk/client-s3@3.812.0)
       bcryptjs:
         specifier: ^2.4.3
@@ -27,35 +27,35 @@ importers:
         specifier: ^5.6.0
         version: 5.6.0
       express:
-        specifier: ^5.0.1
+        specifier: ^5.1.0
         version: 5.1.0
       jsonwebtoken:
         specifier: ^9.0.2
         version: 9.0.2
       mongoose:
-        specifier: ^7.8.2
+        specifier: ^7.8.7
         version: 7.8.7
       multer:
-        specifier: ^1.4.5-lts.1
+        specifier: 1.4.5-lts.2
         version: 1.4.5-lts.2
       validator:
-        specifier: ^13.12.0
+        specifier: ^13.15.0
         version: 13.15.0
     devDependencies:
       '@types/node':
-        specifier: ^22.10.5
+        specifier: ^22.15.18
         version: 22.15.18
       env-cmd:
         specifier: ^10.1.0
         version: 10.1.0
       nodemon:
-        specifier: ^3.1.9
+        specifier: ^3.1.10
         version: 3.1.10
       ts-node:
         specifier: ^10.9.2
         version: 10.9.2(@types/node@22.15.18)(typescript@5.8.3)
       typescript:
-        specifier: ^5.7.2
+        specifier: ^5.8.3
         version: 5.8.3
 
 packages:
