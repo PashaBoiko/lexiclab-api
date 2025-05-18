@@ -38,7 +38,7 @@ MONGODB_URL=mongodb://mongodb:27017/your_database_name
 ```env
 PORT=3000
 MONGODB_URL=mongodb://mongodb:27017/your_database_name
-JWT_SECRET=your_jwt_secret
+JWT_AUTH_SECRET=your_jwt_auth_secret
 RESTRICTED_AUTH=true/false
 ADMIN_EMAIL=your_admin_email
 BASE_PATH=http://your-domain
